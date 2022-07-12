@@ -1,0 +1,163 @@
+.greetings {
+  padding: 25px 15px 50px;
+
+  .row {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .columnLeft {
+    order: 2;
+
+    h1 {
+      color: var(--text-secondary);
+    }
+
+    span {
+      position: relative;
+      top: 1px;
+    }
+    .socialMedia {
+      margin-top: 19px;
+      i {
+        font-size: 2rem;
+        margin: 0 5px;
+        color: var(--text-tertiary);
+        filter: drop-shadow(0 1px 1px rgb(0 0 0 / 14%));
+
+        &:hover {
+          color: var(--text-secondary);
+        }
+      }
+    }
+    .ctaButtons {
+      margin-top: 35px;
+      display: flex;
+
+      :first-child {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .columnRight {
+    order: 1;
+    &.profilePic {
+      max-width: 205px;
+      max-height: 205px;
+      text-align: center;
+      margin: auto;
+      margin: 0 auto 15px;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .iconScroll {
+    display: none;
+  }
+
+  @media only screen and (min-width: 480px) {
+    .columnRight {
+      &.profilePic {
+        max-width: 350px;
+        max-height: 350px;
+        margin: 0 auto 50px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    padding: 120px 25px;
+    height: 100vh;
+
+    .container {
+      height: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .row {
+      display: flex;
+      flex-flow: row;
+    }
+
+    .columnLeft {
+      order: 1;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin-bottom: unset;
+
+      h1 {
+        font-size: 2.3rem;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      h3,
+      p {
+        margin: 1rem 0;
+      }
+    }
+
+    .columnRight {
+      order: 2;
+      width: 40%;
+      margin: auto;
+      &.profilePic {
+        margin: auto;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  @media only screen and (min-width: 768px) and (min-height: 768px) {
+    .iconScrollContainer {
+      .iconScroll {
+        position: relative;
+        margin: auto;
+        display: block;
+        width: 20px;
+        height: 40px;
+        border: 2px solid var(--border-card);
+        border-radius: 25px;
+      }
+
+      .iconScroll:before {
+        position: absolute;
+        left: 50%;
+        content: '';
+        width: 8px;
+        height: 8px;
+        background: var(--text-secondary);
+        margin-left: -4px;
+        top: 2px;
+        border-radius: 4px;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-name: scroll;
+      }
+      @keyframes scroll {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(26px);
+        }
+      }
+    }
+  }
+}

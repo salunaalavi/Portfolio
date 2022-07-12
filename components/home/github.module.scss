@@ -1,0 +1,21 @@
+.github {
+  padding: 50px 15px;
+
+  a {
+    color: var(--accent);
+  }
+
+  .contributions article {
+    margin: auto;
+    width: 100% !important;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    padding: 100px 25px;
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+  }
+}

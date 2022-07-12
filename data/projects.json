@@ -1,0 +1,300 @@
+[
+  {
+    "_id": "1",
+    "title": "Nomizo",
+    "tech": ["Vue.js", "Nuxt.js", "Vuex", "Axios", "Vuetify", "REST API", "GraphQL", "Apollo"],
+    "description": "Project yang masih dalam proses pengerjaan hingga saat ini. Project ini merupakan sebuah FGD (Forum Group Discussion) yang terdapat tiga role didalamnya, yaitu user, moderator, dan admin. Project ini merupakan Capstone Project yang dikerjakan bersama dengan lima divisi sekaligus, yaitu divisi User Interface/User Experience, divisi Back-End, divisi Front-End Web, divisi Front-End Mobile, dan divisi Quality Assurance.",
+    "liveLink": "https://mernshop-99.herokuapp.com/",
+    "githubLink": "https://github.com/renebitter/mernshop",
+    "image": "mernshop.webp",
+    "isFeatured": true,
+    "screenshots": [
+      {
+        "screenshot": "01-home.png",
+        "description": "Homepage with navbar and hero element."
+      },
+      {
+        "screenshot": "02-home.png",
+        "description": "Homepage. Carousel with 3 top-rated products and general product listing."
+      },
+      {
+        "screenshot": "03-home.png",
+        "description": "Homepage. Product listing and pagination."
+      },
+      {
+        "screenshot": "04-product-detail-page.png",
+        "description": "Product detail page. Product description, review rating, price, stock status, quantity selector, add to cart button and review section."
+      },
+      { "screenshot": "06-cart-empty.png", "description": "Empty cart." },
+      {
+        "screenshot": "05-cart-full.png",
+        "description": "Multiple products added to cart. Quantity selection and price updates."
+      },
+      {
+        "screenshot": "07-shipping.png",
+        "description": "Shipping address."
+      },
+      {
+        "screenshot": "08-payment.png",
+        "description": "Payment method selection."
+      },
+      {
+        "screenshot": "09-order-summary.png",
+        "description": "Order summary including shipping address, payment method, order items, prices and total price."
+      },
+      {
+        "screenshot": "10-order-payment.png",
+        "description": "Order payment."
+      },
+      {
+        "screenshot": "11-order-paypal.png",
+        "description": "Paypal integration."
+      },
+      {
+        "screenshot": "12-order-paid.png",
+        "description": "Order summary - paid."
+      },
+      {
+        "screenshot": "14-sign-in.png",
+        "description": "Sign in."
+      },
+      {
+        "screenshot": "15-register.png",
+        "description": "Sign up."
+      },
+      {
+        "screenshot": "16-admin-user-list.png",
+        "description": "Admin user list."
+      },
+      {
+        "screenshot": "17-admin-user-edit.png",
+        "description": "Admin user edit."
+      },
+      {
+        "screenshot": "18-admin-product-list.png",
+        "description": "Admin product list."
+      },
+      {
+        "screenshot": "19-admin-product-edit.png",
+        "description": "Admin product edit/create."
+      },
+      {
+        "screenshot": "20-admin-order-list.png",
+        "description": "Admin order list."
+      },
+      {
+        "screenshot": "21-admin-order-edit.png",
+        "description": "Admin order edit. Mark as delivered."
+      },
+      {
+        "screenshot": "22-admin-order-edit-2.png",
+        "description": "Admin order delivered."
+      },
+      {
+        "screenshot": "23-user-profile-orders.png",
+        "description": "User profile orders."
+      },
+      {
+        "screenshot": "24-user-profile-order-delivered.png",
+        "description": "User profile order delivered."
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "title": "CityRide Yogya",
+    "tech": ["PHP", "Laravel", "Laravel Sanctum", "MySQL", "Bootstrap"],
+    "description": "Dengan mengimplementasikan metode MVC yang didukung dengan kerangka kerja Laravel, CityRide Yogya menghadirkan sebuah website penyewaan sepeda dengan konsep urban.",
+    "liveLink": "https://cityrideyogya.000webhostapp.com/",
+    "githubLink": "https://github.com/salunaalavi/project-sertifikasi-himpunan",
+    "image": "cr-landing-page.png",
+    "isFeatured": true,
+    "screenshots": [
+      {
+        "screenshot": "cr-landing-page.png",
+        "description": "Landing page yang akan dilewati oleh user sebelum melakukan registrasi atau login."
+      },
+      {
+        "screenshot": "cr-login-modal.png",
+        "description": "Modal yang digunakan untuk login."
+      },
+      {
+        "screenshot": "cr-registration-modal.png",
+        "description": "Modal yang digunakan untuk registrasi."
+      },
+      {
+        "screenshot": "cr-home-page-full.png",
+        "description": "Semua kategori sepeda yang tersedia."
+      },
+      { "screenshot": "cr-all-bikes.png", "description": "Menampilkan semua sepeda yang tersedia." },
+      {
+        "screenshot": "cr-specific-bikes.png",
+        "description": "Menampilkan sepeda dengan kategori tertentu."
+      },
+      {
+        "screenshot": "cr-search-page.png",
+        "description": "Fitur pencarian sepeda dengan menggunakan nama sepeda."
+      },
+      {
+        "screenshot": "cr-my-bike.png",
+        "description": "Sepeda yang sedang digunakan."
+      },
+      {
+        "screenshot": "cr-edit-user.png",
+        "description": "Modal untuk mengedit data user."
+      },
+      {
+        "screenshot": "cr-alert-rent.png",
+        "description": "Contoh alert yang digunakan di project ini."
+      },
+      {
+        "screenshot": "cr-footer-collapse.png",
+        "description": "Tampilan detail footer."
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "title": "City Bike - Mini Project",
+    "tech": [
+      "Vue.js",
+      "Nuxt.js",
+      "Vuex",
+      "Axios",
+      "Vuetify",
+      "GraphQL",
+      "Apollo",
+      "Google Maps"
+    ],
+    "description": "Sebuah mini project yang saya kerjakan dengan menggunakan GraphQL sebagai backend dan menjadikan website ini dapat berdiri sendiri. Project ini terinspirasi dari project pertama saya, yaitu CityRide Yogya yang saya implementasikan dengan stack teknologi yang jauh berbeda.",
+    "image": "br-home-hero.png",
+    "liveLink": "https://bike-rental-csjfsa18v-salunaalavi.vercel.app/",
+    "githubLink": "https://github.com/salunaalavi/bike-rental",
+    "isFeatured": true,
+    "screenshots": [
+      {
+        "screenshot": "br-home-hero.png",
+        "description": "Homepage dengan navbar dan hero element."
+      },
+      {
+        "screenshot": "br-home-cards.png",
+        "description": "Homepage dengan 3 fitur top-rated aplikasi."
+      },
+      {
+        "screenshot": "br-home-features.png",
+        "description": "Homepage dengan fitur yang menjadi pembeda aplikasi ini dengan aplikasi lain."
+      },
+      {
+        "screenshot": "br-maps-full-page.png",
+        "description": "Halaman yang menampilkan pin google maps dari stations yang tersedia."
+      },
+      { "screenshot": "br-stations-cards.png", "description": "Halaman yang menampilkan semua stations yang tersedia." },
+      {
+        "screenshot": "br-bikes-cards.png",
+        "description": "Halaman yang menampilkan semua sepeda yang tersedia pada sebuah station."
+      },
+      {
+        "screenshot": "br-account-page.png",
+        "description": "Halaman profil dan juga halaman untuk menampilkan sepeda yang saat ini disewa."
+      },
+      {
+        "screenshot": "br-login-full-page.png",
+        "description": "Halaman login."
+      },
+      {
+        "screenshot": "br-registration-full-page.png",
+        "description": "Halaman registrasi."
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "title": "Mini Paint App",
+    "tech": ["Vanilla", "Bootsrap", "JavaScript Draw"],
+    "description": "Sebuah project yang bertujuan untuk membuat sebuah clone dari aplikasi Microsoft Paint yang dibungkus menjadi sebuah web.",
+    "liveLink": "https://grafika-komputer.vercel.app/",
+    "githubLink": "https://github.com/salunaalavi/grafika-komputer",
+    "screenshots": [
+      {
+        "screenshot": "mp-blank.png",
+        "description": "Halaman awal dengan kanvas kosong."
+      },
+      {
+        "screenshot": "mp-shape.png",
+        "description": "Fitur shape dengan contoh membuat segitiga."
+      },
+      {
+        "screenshot": "mp-shape-filled.png",
+        "description": "Fitur mengganti warna dalam shape."
+      },
+      {
+        "screenshot": "mp-line-draw.png",
+        "description": "Fitur menggambar garis."
+      },
+      { "screenshot": "mp-rotate.png", "description": "Fitur rotasi shape." },
+      {
+        "screenshot": "mp-scale.png",
+        "description": "Fitur merubah skala shape."
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "title": "News App",
+    "tech": ["Vue.js", "Vuetify", "REST API"],
+    "description": "Sebuah mini project dengan bertemakan portal berita. Project ini merupakan project sederhana dengan menerapkan dynamic routing sebagai bahan latihan.",
+    "liveLink": "https://vue-news-saluna-alavi.herokuapp.com/",
+    "githubLink": "https://github.com/salunaalavi/vue-news"
+  },
+  {
+    "_id": "6",
+    "title": "Weekly Task",
+    "tech": ["Vue.js", "Vuetify"],
+    "description": "Project sederhana dengan menerapkan global state sebagai bahan latihan.",
+    "liveLink": "https://vue-26-weekly-task.netlify.app/",
+    "githubLink": "https://github.com/salunaalavi/26_weekly-task",
+    "screenshots": [
+      {
+        "screenshot": "wt-home.png",
+        "description": "Halaman Utama."
+      },
+      {
+        "screenshot": "wt-1.png",
+        "description": "Halaman mengenai Git."
+      },
+      {
+        "screenshot": "wt-2.png",
+        "description": "Halaman mengenai UI/UX."
+      },
+      {
+        "screenshot": "wt-3.png",
+        "description": "Halaman mengenai Figma."
+      },
+      { "screenshot": "wt-4.png", "description": "Halaman mengenai HTML." },
+      {
+        "screenshot": "wt-5.png",
+        "description": "Halaman mengenai CSS."
+      },
+      {
+        "screenshot": "wt-6.png",
+        "description": "Halaman mengenai Bootstrap."
+      },
+      {
+        "screenshot": "wt-7.png",
+        "description": "Halaman mengenai JavaScript."
+      },
+      {
+        "screenshot": "wt-8.png",
+        "description": "Halaman mengenai Clean Code."
+      },
+      {
+        "screenshot": "wt-9.png",
+        "description": "Halaman mengenai Frontend Fundamental."
+      },
+      {
+        "screenshot": "wt-10.png",
+        "description": "Halaman mengenai Vue Fundamental."
+      }
+    ]
+  }
+]
