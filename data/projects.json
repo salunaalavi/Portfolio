@@ -4,99 +4,39 @@
     "title": "Nomizo",
     "tech": ["Vue.js", "Nuxt.js", "Vuex", "Axios", "Vuetify", "REST API", "GraphQL", "Apollo"],
     "description": "Project yang masih dalam proses pengerjaan hingga saat ini. Project ini merupakan sebuah FGD (Forum Group Discussion) yang terdapat tiga role didalamnya, yaitu user, moderator, dan admin. Project ini merupakan Capstone Project yang dikerjakan bersama dengan lima divisi sekaligus, yaitu divisi User Interface/User Experience, divisi Back-End, divisi Front-End Web, divisi Front-End Mobile, dan divisi Quality Assurance.",
-    "liveLink": "https://mernshop-99.herokuapp.com/",
-    "githubLink": "https://github.com/renebitter/mernshop",
-    "image": "mernshop.webp",
+    "liveLink": "https://frontend-2b7719b3k-29-frontend-vue-draft.vercel.app/",
+    "githubLink": "https://github.com/29-Capstone-Alterra-Academy/frontend-vue",
+    "image": "nomizo-home-user.png",
     "isFeatured": true,
     "screenshots": [
       {
-        "screenshot": "01-home.png",
-        "description": "Homepage with navbar and hero element."
+        "screenshot": "nomizo-login.png",
+        "description": "Halaman login yang juga menjadi landing page."
       },
       {
-        "screenshot": "02-home.png",
-        "description": "Homepage. Carousel with 3 top-rated products and general product listing."
+        "screenshot": "nomizo-registration.png",
+        "description": "Halaman registrasi."
       },
       {
-        "screenshot": "03-home.png",
-        "description": "Homepage. Product listing and pagination."
+        "screenshot": "nomizo-snackbar.png",
+        "description": "Contoh penggunaan snackbar."
       },
       {
-        "screenshot": "04-product-detail-page.png",
-        "description": "Product detail page. Product description, review rating, price, stock status, quantity selector, add to cart button and review section."
+        "screenshot": "nomizo-home-user.png",
+        "description": "Halaman utama pada role user."
       },
-      { "screenshot": "06-cart-empty.png", "description": "Empty cart." },
+      { "screenshot": "nomizo-thread.png", "description": "Halaman per thread, user dapat memberikan komentar pada halaman ini." },
       {
-        "screenshot": "05-cart-full.png",
-        "description": "Multiple products added to cart. Quantity selection and price updates."
-      },
-      {
-        "screenshot": "07-shipping.png",
-        "description": "Shipping address."
+        "screenshot": "nomizo-topic-user.png",
+        "description": "Halaman yang menampilkan semua thread pada topic ini."
       },
       {
-        "screenshot": "08-payment.png",
-        "description": "Payment method selection."
+        "screenshot": "nomizo-search.png",
+        "description": "Halaman pencarian secara global."
       },
       {
-        "screenshot": "09-order-summary.png",
-        "description": "Order summary including shipping address, payment method, order items, prices and total price."
-      },
-      {
-        "screenshot": "10-order-payment.png",
-        "description": "Order payment."
-      },
-      {
-        "screenshot": "11-order-paypal.png",
-        "description": "Paypal integration."
-      },
-      {
-        "screenshot": "12-order-paid.png",
-        "description": "Order summary - paid."
-      },
-      {
-        "screenshot": "14-sign-in.png",
-        "description": "Sign in."
-      },
-      {
-        "screenshot": "15-register.png",
-        "description": "Sign up."
-      },
-      {
-        "screenshot": "16-admin-user-list.png",
-        "description": "Admin user list."
-      },
-      {
-        "screenshot": "17-admin-user-edit.png",
-        "description": "Admin user edit."
-      },
-      {
-        "screenshot": "18-admin-product-list.png",
-        "description": "Admin product list."
-      },
-      {
-        "screenshot": "19-admin-product-edit.png",
-        "description": "Admin product edit/create."
-      },
-      {
-        "screenshot": "20-admin-order-list.png",
-        "description": "Admin order list."
-      },
-      {
-        "screenshot": "21-admin-order-edit.png",
-        "description": "Admin order edit. Mark as delivered."
-      },
-      {
-        "screenshot": "22-admin-order-edit-2.png",
-        "description": "Admin order delivered."
-      },
-      {
-        "screenshot": "23-user-profile-orders.png",
-        "description": "User profile orders."
-      },
-      {
-        "screenshot": "24-user-profile-order-delivered.png",
-        "description": "User profile order delivered."
+        "screenshot": "nomizo-ranking.png",
+        "description": "Halaman ranking."
       }
     ]
   },
@@ -210,7 +150,7 @@
   {
     "_id": "4",
     "title": "Mini Paint App",
-    "tech": ["Vanilla", "Bootsrap", "JavaScript Draw"],
+    "tech": ["Vanilla", "Bootstrap", "JavaScript Draw"],
     "description": "Sebuah project yang bertujuan untuk membuat sebuah clone dari aplikasi Microsoft Paint yang dibungkus menjadi sebuah web.",
     "liveLink": "https://grafika-komputer.vercel.app/",
     "githubLink": "https://github.com/salunaalavi/grafika-komputer",
