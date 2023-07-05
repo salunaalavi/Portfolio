@@ -32,7 +32,7 @@ const Hero = () => {
           <div className={classes.columnLeft}>
             <h3 data-aos='fade-left'>Hi, saya Saluna Alavi.</h3>
             <h1 data-aos='fade-right'>
-              Saya bekerja sebagai Frontend Developer dengan pengalaman dibidang e-commerce, dan forum group discussion.
+              Saya bekerja sebagai Frontend Developer dengan pengalaman dibidang Learning Management System (LMS), Customer Relationship Management (CRM), tour & travel, dan forum group discussion.
             </h1>
             <p data-aos='fade-left' data-aos-delay='150'>
               Saya fasih dalam berbahasa Inggris{' '}
@@ -44,12 +44,22 @@ const Hero = () => {
                   height={16}
                 />
               </span>
-              {' '}
-              dan JavaScript{' '}
+              {', '}
+              JavaScript{' '}
               <span>
                 <Image
                   src='/images/js.png'
-                  alt='usa-flag'
+                  alt='javascript-icon'
+                  width={16}
+                  height={16}
+                />
+              </span>
+              {' '}
+              dan TypeScript{' '}
+              <span>
+                <Image
+                  src='/images/ts.png'
+                  alt='typescript-icon'
                   width={16}
                   height={16}
                 />

@@ -42,6 +42,28 @@ const About = () => {
               dan Pengembangan Kelompok Studi Linux, sebuah OS yang sangat
               berjasa besar dalam sejarah software engineer.
             </p>
+            
+            <p>
+              Saya merupakan peserta Magang dan Studi Independed (MSIB) yang diselenggarakan oleh Kampus Merdeka,
+              saya mengikuti program MSIB dua kali, yaitu pada batch 2 (Februari 2022 - Juli 2022) sebagai mentee
+              pada Studi Independed Altera Accademy di kelas Vue.js. Selanjutnya saya mengikuti program MSIB pada
+              batch 3 (Agustus 2022 - Desember 2022) sebagai Full Stack Developer di P.T. Baracipta Esa Engineering
+              (Beecons) yang bertanggungjawab untuk mengembangkan sebuah aplikasi Learning Management System (LMS)
+              {" "}<i className="fas fa-link"></i>{" "}
+              <a
+                href="https://stufast.id"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Stufast
+              </a>
+            </p>
+            
+            <p>
+              Saya juga memiliki pengalaman magang di sebuah startup Software as a Service Qiscus pada (Januari 2023 - Juli 2023).
+              Saya menjadi seorang Front End Engineer yang bertugas untuk melakukan riset sekaligus pengembangan aplikasi Costumer Relationship Management
+              (CRM)
+            </p>
 
             <p>
               Saya menjunjung tinggi nilai keberagaman dan juga suka menjalin

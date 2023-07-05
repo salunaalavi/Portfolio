@@ -1,100 +1,225 @@
 [
   {
     "_id": "1",
-    "title": "Nomizo",
-    "tech": ["Vue.js", "Nuxt.js", "Vuex", "Axios", "Vuetify", "REST API", "GraphQL", "Apollo"],
-    "description": "Project yang masih dalam proses pengerjaan hingga saat ini. Project ini merupakan sebuah FGD (Forum Group Discussion) yang terdapat tiga role didalamnya, yaitu user, moderator, dan admin. Project ini merupakan Capstone Project yang dikerjakan bersama dengan lima divisi sekaligus, yaitu divisi User Interface/User Experience, divisi Back-End, divisi Front-End Web, divisi Front-End Mobile, dan divisi Quality Assurance.",
-    "liveLink": "https://frontend-2b7719b3k-29-frontend-vue-draft.vercel.app/",
-    "githubLink": "https://github.com/29-Capstone-Alterra-Academy/frontend-vue",
-    "image": "nomizo-home-user.png",
+    "title": "Qiscus CRM",
+    "tech": ["Vue.js", "Nuxt.js", "Headless UI", "Tailwind UI", "Pinia", "REST API"],
+    "image": "qcrm/qcrm-dashboard-page.png",
     "isFeatured": true,
+    "description": "Project magang di sebuah perusahaan Software as a Service yang tengah membuat platform CRM, dan saya berkontribusi untuk melakukan riset dan pengembangan terhadap platform tersebut hingga turut melakukan revamp selama 6 bulan.",
     "screenshots": [
       {
-        "screenshot": "nomizo-login.png",
-        "description": "Halaman login yang juga menjadi landing page."
+        "screenshot": "qcrm/qcrm-dashboard-page.png",
+        "description": "Halaman Dashboard."
       },
       {
-        "screenshot": "nomizo-registration.png",
-        "description": "Halaman registrasi."
+        "screenshot": "qcrm/qcrm-analytics-page.png",
+        "description": "Halaman list Analytic."
       },
       {
-        "screenshot": "nomizo-snackbar.png",
-        "description": "Contoh penggunaan snackbar."
+        "screenshot": "qcrm/qcrm-leads-page.png",
+        "description": "Halaman list Lead."
       },
       {
-        "screenshot": "nomizo-home-user.png",
-        "description": "Halaman utama pada role user."
-      },
-      { "screenshot": "nomizo-thread.png", "description": "Halaman per thread, user dapat memberikan komentar pada halaman ini." },
-      {
-        "screenshot": "nomizo-topic-user.png",
-        "description": "Halaman yang menampilkan semua thread pada topic ini."
+        "screenshot": "qcrm/qcrm-contacts-page.png",
+        "description": "Halaman list Contact."
       },
       {
-        "screenshot": "nomizo-search.png",
-        "description": "Halaman pencarian secara global."
+        "screenshot": "qcrm/qcrm-accounts-page.png",
+        "description": "Halaman list Account."
       },
       {
-        "screenshot": "nomizo-ranking.png",
-        "description": "Halaman ranking."
+        "screenshot": "qcrm/qcrm-opportunities-page.png",
+        "description": "Halaman list Opportunity."
+      },
+      {
+        "screenshot": "qcrm/qcrm-tasks-page.png",
+        "description": "Halaman list Task."
+      },
+      {
+        "screenshot": "qcrm/qcrm-campaigns-page.png",
+        "description": "Halaman list Campaign."
+      },
+      {
+        "screenshot": "qcrm/qcrm-lead-page.png",
+        "description": "Halaman detail Lead."
       }
     ]
   },
   {
     "_id": "2",
-    "title": "CityRide Yogya",
-    "tech": ["PHP", "Laravel", "Laravel Sanctum", "MySQL", "Bootstrap"],
-    "description": "Dengan mengimplementasikan metode MVC yang didukung dengan kerangka kerja Laravel, CityRide Yogya menghadirkan sebuah website penyewaan sepeda dengan konsep urban.",
-    "liveLink": "https://cityrideyogya.000webhostapp.com/",
-    "githubLink": "https://github.com/salunaalavi/project-sertifikasi-himpunan",
-    "image": "cr-landing-page.png",
+    "title": "Indoaddict",
+    "tech": ["PHP", "Laravel", "React.js", "REST API", "Material UI"],
+    "image": "indoaddict/indoaddict-home-page.png",
     "isFeatured": true,
+    "description": "Project freelance membuat sebuah website tour & travel beserta dengan admin panel.",
+    "liveLink": "https://indoaddict.com",
     "screenshots": [
       {
-        "screenshot": "cr-landing-page.png",
-        "description": "Landing page yang akan dilewati oleh user sebelum melakukan registrasi atau login."
+        "screenshot": "indoaddict/indoaddict-home-page.png",
+        "description": "Halaman Utama."
       },
       {
-        "screenshot": "cr-login-modal.png",
-        "description": "Modal yang digunakan untuk login."
+        "screenshot": "indoaddict/indoaddict-destination-page.png",
+        "description": "Halaman Destination."
       },
       {
-        "screenshot": "cr-registration-modal.png",
-        "description": "Modal yang digunakan untuk registrasi."
+        "screenshot": "indoaddict/indoaddict-contact-page.png",
+        "description": "Halaman Contact."
       },
       {
-        "screenshot": "cr-home-page-full.png",
-        "description": "Semua kategori sepeda yang tersedia."
-      },
-      { "screenshot": "cr-all-bikes.png", "description": "Menampilkan semua sepeda yang tersedia." },
-      {
-        "screenshot": "cr-specific-bikes.png",
-        "description": "Menampilkan sepeda dengan kategori tertentu."
+        "screenshot": "indoaddict/indoaddict-product-page.png",
+        "description": "Halaman detail Destination."
       },
       {
-        "screenshot": "cr-search-page.png",
-        "description": "Fitur pencarian sepeda dengan menggunakan nama sepeda."
-      },
-      {
-        "screenshot": "cr-my-bike.png",
-        "description": "Sepeda yang sedang digunakan."
-      },
-      {
-        "screenshot": "cr-edit-user.png",
-        "description": "Modal untuk mengedit data user."
-      },
-      {
-        "screenshot": "cr-alert-rent.png",
-        "description": "Contoh alert yang digunakan di project ini."
-      },
-      {
-        "screenshot": "cr-footer-collapse.png",
-        "description": "Tampilan detail footer."
+        "screenshot": "indoaddict/indoaddict-checkout-page.png",
+        "description": "Halaman Checkout."
       }
     ]
   },
   {
     "_id": "3",
+    "title": "Stufast Learning Platform",
+    "tech": ["PHP", "Codeigniter", "jQuery", "Bootstrap", "REST API"],
+    "image": "stufast/sf-landing-page.png",
+    "isFeatured": true,
+    "description": "Project magang MSIB untuk membuat platform belajar online. bertanggungjawab sebagai seorang Full Stack Developer.",
+    "liveLink": "https://stufast.id",
+    "screenshots": [
+      {
+        "screenshot": "stufast/sf-landing-page.png",
+        "description": "Halaman Utama."
+      },
+      {
+        "screenshot": "stufast/sf-login-page.png",
+        "description": "Halaman Login."
+      },
+      {
+        "screenshot": "stufast/sf-register-page.png",
+        "description": "Halaman Register."
+      },
+      {
+        "screenshot": "stufast/sf-profile-page.png",
+        "description": "Halaman Profile."
+      },
+      {
+        "screenshot": "stufast/sf-training-page.png",
+        "description": "Halaman list Training."
+      },
+      {
+        "screenshot": "stufast/sf-training-detail.png",
+        "description": "Halaman detail Training."
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "title": "Nomizo",
+    "tech": [
+      "Vue.js",
+      "Nuxt.js",
+      "Vuex",
+      "Axios",
+      "Vuetify",
+      "REST API",
+      "GraphQL",
+      "Apollo"
+    ],
+    "description": "Project yang masih dalam proses pengerjaan hingga saat ini. Project ini merupakan sebuah FGD (Forum Group Discussion) yang terdapat tiga role didalamnya, yaitu user, moderator, dan admin. Project ini merupakan Capstone Project yang dikerjakan bersama dengan lima divisi sekaligus, yaitu divisi User Interface/User Experience, divisi Back-End, divisi Front-End Web, divisi Front-End Mobile, dan divisi Quality Assurance.",
+    "liveLink": "https://frontend-2b7719b3k-29-frontend-vue-draft.vercel.app/",
+    "githubLink": "https://github.com/29-Capstone-Alterra-Academy/frontend-vue",
+    "image": "nomizo/nomizo-home-user.png",
+    "screenshots": [
+      {
+        "screenshot": "nomizo/nomizo-login.png",
+        "description": "Halaman login yang juga menjadi landing page."
+      },
+      {
+        "screenshot": "nomizo/nomizo-registration.png",
+        "description": "Halaman registrasi."
+      },
+      {
+        "screenshot": "nomizo/nomizo-snackbar.png",
+        "description": "Contoh penggunaan snackbar."
+      },
+      {
+        "screenshot": "nomizo/nomizo-home-user.png",
+        "description": "Halaman utama pada role user."
+      },
+      {
+        "screenshot": "nomizo/nomizo-thread.png",
+        "description": "Halaman per thread, user dapat memberikan komentar pada halaman ini."
+      },
+      {
+        "screenshot": "nomizo/nomizo-topic-user.png",
+        "description": "Halaman yang menampilkan semua thread pada topic ini."
+      },
+      {
+        "screenshot": "nomizo/nomizo-search.png",
+        "description": "Halaman pencarian secara global."
+      },
+      {
+        "screenshot": "nomizo/nomizo-ranking.png",
+        "description": "Halaman ranking."
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "title": "CityRide Yogya",
+    "tech": ["PHP", "Laravel", "Laravel Sanctum", "MySQL", "Bootstrap"],
+    "description": "Dengan mengimplementasikan metode MVC yang didukung dengan kerangka kerja Laravel, CityRide Yogya menghadirkan sebuah website penyewaan sepeda dengan konsep urban.",
+    "liveLink": "https://cityrideyogya.000webhostapp.com/",
+    "githubLink": "https://github.com/salunaalavi/project-sertifikasi-himpunan",
+    "image": "citybike/cr-landing-page.png",
+    "screenshots": [
+      {
+        "screenshot": "citybike/cr-landing-page.png",
+        "description": "Landing page yang akan dilewati oleh user sebelum melakukan registrasi atau login."
+      },
+      {
+        "screenshot": "citybike/cr-login-modal.png",
+        "description": "Modal yang digunakan untuk login."
+      },
+      {
+        "screenshot": "citybike/cr-registration-modal.png",
+        "description": "Modal yang digunakan untuk registrasi."
+      },
+      {
+        "screenshot": "citybike/cr-home-page-full.png",
+        "description": "Semua kategori sepeda yang tersedia."
+      },
+      {
+        "screenshot": "citybike/cr-all-bikes.png",
+        "description": "Menampilkan semua sepeda yang tersedia."
+      },
+      {
+        "screenshot": "citybike/cr-specific-bikes.png",
+        "description": "Menampilkan sepeda dengan kategori tertentu."
+      },
+      {
+        "screenshot": "citybike/cr-search-page.png",
+        "description": "Fitur pencarian sepeda dengan menggunakan nama sepeda."
+      },
+      {
+        "screenshot": "citybike/cr-my-bike.png",
+        "description": "Sepeda yang sedang digunakan."
+      },
+      {
+        "screenshot": "citybike/cr-edit-user.png",
+        "description": "Modal untuk mengedit data user."
+      },
+      {
+        "screenshot": "citybike/cr-alert-rent.png",
+        "description": "Contoh alert yang digunakan di project ini."
+      },
+      {
+        "screenshot": "citybike/cr-footer-collapse.png",
+        "description": "Tampilan detail footer."
+      }
+    ]
+  },
+  {
+    "_id": "6",
     "title": "City Bike - Mini Project",
     "tech": [
       "Vue.js",
@@ -107,48 +232,50 @@
       "Google Maps"
     ],
     "description": "Sebuah mini project yang saya kerjakan dengan menggunakan GraphQL sebagai backend dan menjadikan website ini dapat berdiri sendiri. Project ini terinspirasi dari project pertama saya, yaitu CityRide Yogya yang saya implementasikan dengan stack teknologi yang jauh berbeda.",
-    "image": "br-home-hero.png",
+    "image": "bikerental/br-home-hero.png",
     "liveLink": "https://bike-rental-csjfsa18v-salunaalavi.vercel.app/",
     "githubLink": "https://github.com/salunaalavi/bike-rental",
-    "isFeatured": true,
     "screenshots": [
       {
-        "screenshot": "br-home-hero.png",
+        "screenshot": "bikerental/br-home-hero.png",
         "description": "Homepage dengan navbar dan hero element."
       },
       {
-        "screenshot": "br-home-cards.png",
+        "screenshot": "bikerental/br-home-cards.png",
         "description": "Homepage dengan 3 fitur top-rated aplikasi."
       },
       {
-        "screenshot": "br-home-features.png",
+        "screenshot": "bikerental/br-home-features.png",
         "description": "Homepage dengan fitur yang menjadi pembeda aplikasi ini dengan aplikasi lain."
       },
       {
-        "screenshot": "br-maps-full-page.png",
+        "screenshot": "bikerental/br-maps-full-page.png",
         "description": "Halaman yang menampilkan pin google maps dari stations yang tersedia."
       },
-      { "screenshot": "br-stations-cards.png", "description": "Halaman yang menampilkan semua stations yang tersedia." },
       {
-        "screenshot": "br-bikes-cards.png",
+        "screenshot": "bikerental/br-stations-cards.png",
+        "description": "Halaman yang menampilkan semua stations yang tersedia."
+      },
+      {
+        "screenshot": "bikerental/br-bikes-cards.png",
         "description": "Halaman yang menampilkan semua sepeda yang tersedia pada sebuah station."
       },
       {
-        "screenshot": "br-account-page.png",
+        "screenshot": "bikerental/br-account-page.png",
         "description": "Halaman profil dan juga halaman untuk menampilkan sepeda yang saat ini disewa."
       },
       {
-        "screenshot": "br-login-full-page.png",
+        "screenshot": "bikerental/br-login-full-page.png",
         "description": "Halaman login."
       },
       {
-        "screenshot": "br-registration-full-page.png",
+        "screenshot": "bikerental/br-registration-full-page.png",
         "description": "Halaman registrasi."
       }
     ]
   },
   {
-    "_id": "4",
+    "_id": "7",
     "title": "Mini Paint App",
     "tech": ["Vanilla", "Bootstrap", "JavaScript Draw"],
     "description": "Sebuah project yang bertujuan untuk membuat sebuah clone dari aplikasi Microsoft Paint yang dibungkus menjadi sebuah web.",
@@ -179,7 +306,7 @@
     ]
   },
   {
-    "_id": "5",
+    "_id": "8",
     "title": "News App",
     "tech": ["Vue.js", "Vuetify", "REST API"],
     "description": "Sebuah mini project dengan bertemakan portal berita. Project ini merupakan project sederhana dengan menerapkan dynamic routing sebagai bahan latihan.",
@@ -187,7 +314,7 @@
     "githubLink": "https://github.com/salunaalavi/vue-news"
   },
   {
-    "_id": "6",
+    "_id": "9",
     "title": "Weekly Task",
     "tech": ["Vue.js", "Vuetify"],
     "description": "Project sederhana dengan menerapkan global state sebagai bahan latihan.",
